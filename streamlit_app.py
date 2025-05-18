@@ -1,6 +1,18 @@
 import streamlit as st
 import pandas as pd
 
+
+st.sidebar.title("Table of Contents")
+st.sidebar.markdown("""
+- [À propos](#a-propos)
+- [Compétences](#competences)
+- [Portfolio](#portfolio)
+- [Formation](#formation)
+- [Bénévolat](#benevolat)
+- [Langues](#langues)
+- [Veille et projets](#veille-et-projets)
+""", unsafe_allow_html=True)
+
 # Header
 st.title("Arilanto Fetra RAMANANTSOA")
 st.subheader("Développeur Backend")
