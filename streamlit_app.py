@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.sidebar.title("Table of Contents")
+st.sidebar.title("Sommaire")
 st.sidebar.markdown("""
 - [À propos](#a-propos)
 - [Compétences](#competences)
@@ -14,7 +14,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.title("Arilanto Fetra RAMANANTSOA")
+st.title("Fetra RAMANANTSOA")
 st.subheader("Développeur Backend")
 
 # About
